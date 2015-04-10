@@ -1,32 +1,32 @@
 alias ls="ls -al -G"
 alias mypi="ssh -p 52837 pi@72.227.100.207"
 alias sites="cd ~/Sites"
-alias cos431="cd /Users/nat/Copy/archives/school/cos431"
-alias cos226="cd /Users/nat/Copy/archives/school/cos226"
-alias cos301="cd /Users/nat/Copy/archives/school/cos301"
-alias cos397="cd /Users/nat/Copy/archives/school/cos397"
-alias cos420="cd /Users/nat/Copy/archives/school/cos420"
-alias cos497="cd /Users/nat/Copy/archives/school/cos497"
-alias cos350="cd /Users/nat/Copy/archives/school/cos350"
-alias cos451="cd /Users/nat/Copy/archives/school/cos451"
+alias cos431="cd /Users/natilus/Copy/school/cos491"
+alias cos226="cd /Users/natilus/Copy/school/cos226"
+alias cos301="cd /Users/natilus/Copy/school/cos301"
+alias cos420="cd /Users/natilus/Copy/school/cos420"
+alias cos497="cd /Users/natilus/Copy/school/cos497"
+alias cos350="cd /Users/natilus/Copy/school/cos350"
+alias cos451="cd /Users/natilus/Copy/school/cos451"
+alias gui="cd /Users/natilus/Desktop/macleod/gui"
 alias todo="todo --all"
 alias mynode="ssh nat@nat"
 alias ls="ls -al -G"
 alias bees="ssh -X confidox@130.111.20.140"
-alias school="cd ~/Copy/archives/school"
+alias school="cd ~/Copy/school"
 alias cl="clear"
 alias down="cd ~/Downloads"
-alias macleod="cd ~/Copy/archives/school/macleod"
+alias macleod="cd ~/Desktop/macleod"
 alias gpom="git push origin master"
 alias bak="cd ../"
 alias bak2="cd ../../"
 alias bak3="cd ../../../"
 alias bak4="cd ../../../../"
 alias bako="cd $OLDPWD"
-
+alias vim="/usr/local/Cellar/vim/7.4.488/bin/vim"
 function coda() { 
 
-	osascript -e 'tell application \"Coda 2\" to open file \"$1"\'
+	osascript -e 'tell application \"Coda\" to open file \"$1"\'
 
 }
 
