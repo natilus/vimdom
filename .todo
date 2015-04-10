@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <note priority="veryhigh" time="1427342708">
+        Make Flatfa's ringtone the rugrats (in Copy)
+    </note>
+    <note priority="veryhigh" time="1427342973">
+        What's the difference between sbin and bin
+    </note>
+    <note priority="veryhigh" time="1427343235">
+        Figure out how to use easy_motion in vim
+    </note>
+    <note priority="veryhigh" time="1427343734">
+        I have no idea what multitail on syslog means.
+    </note>
+    <note priority="veryhigh" time="1427343886">
+        Read Code Complete
+    </note>
+    <note priority="veryhigh" time="1427343931">
+        Read Software Engineering
+    </note>
+    <note priority="veryhigh" time="1427344174">
+        Download and install syntastic for vim
+    </note>
+    <note priority="veryhigh" time="1427344436">
+        COS451 - Revise the test - ALL Problems
+    </note>
+    <note priority="veryhigh" time="1427344534">
+        COS350 - Homework #1
+        <note priority="veryhigh" time="1427420743">
+            Finish this one first
+        </note>
+    </note>
+    <note priority="veryhigh" time="1427344568">
+        COS350 - Homework #2
+    </note>
+    <note priority="veryhigh" time="1427344584">
+        COS350 - Homework #3
+    </note>
+    <note priority="veryhigh" time="1427344601">
+        COS451 - Homework #5
+    </note>
+    <note priority="veryhigh" time="1427344736">
+        COS350 - Team Meeting
+    </note>
+    <note priority="veryhigh" time="1427344751">
+        COS350 - First Two Project Parts
+    </note>
+    <note priority="veryhigh" time="1427344786">
+        COS451 - Homework #4
+    </note>
+    <note priority="veryhigh" time="1427344845">
+        COS497 - Type the paper!!!!!
+    </note>
+    <note priority="veryhigh" time="1427344914">
+        COS420 - Sign up and get situated with Google app engine - or test twilio with some money if &lt; 5$
+    </note>
+    <note priority="veryhigh" time="1427345132">
+        COS497 - Do the fucking PROJECT MACLEOD
+    </note>
+    <note priority="veryhigh" time="1428514640">
+        Monitor Mom's FAFSA status shit - need to link her IRS data and submit independent form thing
+    </note>
+    <note priority="veryhigh" time="1428693427">
+        COS420 Homework 2 - USE CASE ASSIGNMENT
+    </note>
+    <note priority="high" time="1427342667">
+        Get bootable image of kali linux and put on the patriot flash
+    </note>
+    <note priority="high" time="1427342852">
+        Finalize the .bash_profile (ish, at least enough to justify a repo)
+    </note>
+    <note priority="high" time="1427342897">
+        Find a tutorial about using an antenna to hack wifi networks
+    </note>
+    <note priority="high" time="1427342913">
+        Get the link from rob to the antenna he bought
+        <note priority="veryhigh" time="1427420956">
+            http://www.amazon.com/gp/product/B004YD7UBQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&amp;psc=1
+        </note>
+    </note>
+    <note priority="high" time="1427343037">
+        Combine all professional correspondence into one document
+    </note>
+    <note priority="high" time="1427343259">
+        Add nerdTree to vim on Friday
+    </note>
+    <note priority="high" time="1427343466">
+        Bash script to create fresh tmux sessions connectable by running another bash script from remote computer, effectively setting up 1 Tmux session, nesting two embedded sessions that rob and I connect to. Maybe have another window that is single control.
+    </note>
+    <note priority="high" time="1427343706">
+        Configure weechat to auto connect to select servers and auto-join rooms. (pass)
+    </note>
+    <note priority="high" time="1427343770">
+        Safe For Workify My Laptop
+    </note>
+    <note priority="high" time="1427344016">
+        Install GeekTool
+    </note>
+    <note priority="high" time="1427344130">
+        Make my cheat sheet for all things handy to remember, likely to repeat things
+    </note>
+    <note priority="high" time="1427822355">
+        Solidify a rough outline for how our presentations will pan out
+    </note>
+    <note priority="high" time="1428645482">
+        Learn to use vim-notes
+    </note>
+    <note priority="medium" time="1427342575">
+        Structure the hierarchy for all types of configs (vim/bash/irc)
+    </note>
+    <note priority="medium" time="1427342612">
+        Write something to automatically start the pi playing music at select times
+    </note>
+    <note priority="medium" time="1427342732">
+        Play with Mutt email client
+    </note>
+    <note priority="medium" time="1427343066">
+        Bitlbee for the mac irc client
+    </note>
+    <note priority="medium" time="1427343304">
+        Play with wrapping text in vim
+    </note>
+    <note priority="medium" time="1427343851">
+        Configure best tools for formatting C : C++ : Java : Python : JS/HTML, and have them ready to go on command.
+    </note>
+    <note priority="medium" time="1427343994">
+        Program something that uses depth first search - love the recursion LOVE IT
+    </note>
+    <note priority="medium" time="1427344074">
+        Update passwords file by using the terminal password thing
+    </note>
+    <note priority="medium" time="1427344481">
+        Research file finder project for COS226 makeup
+    </note>
+    <note priority="medium" time="1428098156">
+        Configure weechat conf files to connect to rooms/servers when running weechat
+    </note>
+    <note priority="low" time="1427342535">
+        Put all config files for custom shells on Github (After Structuring hierarchy)
+    </note>
+    <note priority="low" time="1427342788">
+        Figure out how to execute a certain command when opening a tmux session, and perhaps having sessions of a certain name run a different command than another
+    </note>
+    <note priority="low" time="1427343004">
+        Price out SmileCareClub thing in early July
+    </note>
+    <note priority="low" time="1427343601">
+        Finalize LaTeX templates for: HW : ACM : (List link to cheatsheets)
+    </note>
+    <note priority="low" time="1427343789">
+        Encrypt all NSFW on Keywork
+    </note>
+    <note priority="low" time="1427344041">
+        Change all usernames to natilus
+    </note>
+    <note priority="low" time="1427344948">
+        COS226 - Finish File Finder Project
+    </note>
+    <note priority="low" time="1427344978">
+        COS226 - Homework #3
+    </note>
+    <note priority="low" time="1427344996">
+        COS226 - Homework #4
+    </note>
+    <note priority="low" time="1427345016">
+        COS226 - Homework #5 (Optional)
+    </note>
+    <note priority="low" time="1427345039">
+        COS226 - Journals
+    </note>
+    <note priority="low" time="1427345053">
+        COS226 - Final Exam
+    </note>
+    <note priority="verylow" time="1427342443">
+        Tutorial for mpg321 and setting up with the pi for swan.zone portfolio.
+    </note>
+    <note priority="verylow" time="1427342466">
+        Buy 'mrhamburg.com'
+    </note>
+    <note priority="verylow" time="1427343096">
+        Lookup a cool utility in Kali linux and maybe learn it
+    </note>
+    <note priority="verylow" time="1427343120">
+        Get a wireless keyboard for the pi
+    </note>
+    <note priority="verylow" time="1427343192">
+        Make an encrypted drive to store sensitive information with the key being a picture or something on an sd card
+    </note>
+    <note priority="verylow" time="1427343899">
+        Read Risks
+    </note>
+    <note priority="verylow" time="1427343913">
+        Read Pragmatic Programmer
+    </note>
+    <note priority="verylow" time="1427344196">
+        Learn how to use eclim perhaps?
+    </note>
+</todo>
