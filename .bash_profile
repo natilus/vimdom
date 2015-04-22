@@ -1,5 +1,5 @@
 alias ls="ls -al -G"
-alias mypi="ssh -p 52837 pi@72.227.100.207"
+alias mypi="ssh -p 52837 72.227.100.207"
 alias sites="cd ~/Sites"
 alias cos431="cd /Users/natilus/Copy/school/cos491"
 alias cos226="cd /Users/natilus/Copy/school/cos226"

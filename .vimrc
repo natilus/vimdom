@@ -21,6 +21,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
+Plugin 'junegunn/goyo.vim'
 
 " All Plugins must be added before the following line
 filetype plugin indent on    " required
@@ -34,6 +35,7 @@ set smarttab
 set laststatus=2
 set clipboard=unnamed "does some pasting shit
 set background=dark
+
 
 
 syntax enable     
@@ -61,4 +63,4 @@ nmap <silent> <leader>pus :Gpush origin master<CR>
 nmap <silent> <leader>pul :Gpull origin master<CR>
 nmap <silent> <leader>com :Gcommit<CR>
 nmap <silent> <leader>wri :Gwrite<CR>
-
+nmap <silent> <leader>ss :setlocal spell!<cr>
