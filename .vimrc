@@ -22,6 +22,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
 Plugin 'junegunn/goyo.vim'
+Plugin 'benmills/vimux'
 
 " All Plugins must be added before the following line
 filetype plugin indent on    " required
@@ -55,10 +56,22 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+" Edit and load .vimrc file with leader key
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>lv :so $MYVIMRC<CR>
+
+" Split vim shortcut
 nmap <silent> <leader>sv :vsplit<CR>
 nmap <silent> <leader>hv :hsplit<CR>
+
+" Vimux shortcut
+map <Leader>vp :VimuxPromptCommand<CR>
+map <Leader>vl :VimuxRunLastCommand<CR>
+map <Leader>vi :VimuxInspectRunner<CR>
+map <Leader>vx :VimuxInterruptRunner<CR>
+map <Leader>vx :VimuxInterruptRunner<CR>
+map <Leader>vz :call VimuxZoomRunner()<CR>
+map <Leader>ns :NoteFromSelectedText<CR>
 nmap <silent> <leader>pus :Gpush origin master<CR>
 nmap <silent> <leader>pul :Gpull origin master<CR>
 nmap <silent> <leader>com :Gcommit<CR>
