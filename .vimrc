@@ -14,7 +14,6 @@ call vundle#rc()
 "call vundle#begin('~/some/path/here')
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
@@ -23,6 +22,39 @@ Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
 Plugin 'junegunn/goyo.vim'
 Plugin 'benmills/vimux'
+Plugin 'vim-scripts/taglist.vim'
+
+" Color Repositories
+
+Bundle 'altercation/vim-colors-solarized'
+" solarized
+
+Bundle 'vim-scripts/strange'
+" strange
+
+Bundle 'vyshane/vydark-vim-color'
+" vydark
+
+Bundle 'adlawson/vim-sorcerer'     
+" sorcerer
+
+Bundle 'vim-scripts/rdark'
+" rdark
+
+Bundle 'croaker/mustang-vim'
+" mustang
+
+Bundle 'jordwalke/flatlandia'
+" flatlandia
+
+Bundle 'gosukiwi/vim-atom-dark' 
+" atom-dark
+
+Bundle 'jonathanfilip/vim-lucius'
+" lucius
+
+Bundle 'Lokaltog/vim-distinguished'
+" distinguished
 
 " All Plugins must be added before the following line
 filetype plugin indent on    " required
@@ -32,17 +64,15 @@ filetype plugin indent on    " required
 set number
 set tabstop=4 shiftwidth=4 expandtab
 set shiftround
+set tw=120
 set smarttab
 set laststatus=2
 set clipboard=unnamed "does some pasting shit
 set background=dark
-
-
-
+set backspace=indent,eol,start
 syntax enable     
-let g:solarized_termcolors = 256  
-colorscheme solarized
-
+set t_Co=256
+colorscheme  distinguished
 
 " Remapping Keys
 let mapleader=','
@@ -72,8 +102,12 @@ map <Leader>vx :VimuxInterruptRunner<CR>
 map <Leader>vx :VimuxInterruptRunner<CR>
 map <Leader>vz :call VimuxZoomRunner()<CR>
 map <Leader>ns :NoteFromSelectedText<CR>
+map <Leader>nn :set nonumber<CR>
+map <Leader>n  :set number<CR>
+
+" Git stuff
 nmap <silent> <leader>pus :Gpush origin master<CR>
 nmap <silent> <leader>pul :Gpull origin master<CR>
 nmap <silent> <leader>com :Gcommit<CR>
 nmap <silent> <leader>wri :Gwrite<CR>
-nmap <silent> <leader>ss :setlocal spell!<cr>
+nmap <silent> <leader>sc :setlocal spell!<cr>

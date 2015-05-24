@@ -1,5 +1,6 @@
-alias ls="ls -al -G"
-alias mypi="ssh -p 52837 72.227.100.207"
+alias ls="ls -aGhCF"
+alias ll="ls -alhG"
+alias mypi="ssh -p 52837 natilus@72.227.100.207"
 alias sites="cd ~/Sites"
 alias cos431="cd /Users/natilus/Copy/school/cos491"
 alias cos226="cd /Users/natilus/Copy/school/cos226"
@@ -12,7 +13,6 @@ alias nat666="cd /Users/natilus/Copy/school/nat666"
 alias gui="cd /Users/natilus/Desktop/macleod/gui"
 alias todo="todo --all"
 alias mynode="ssh nat@nat"
-alias ls="ls -al -G"
 alias bees="ssh -X confidox@130.111.20.140"
 alias school="cd ~/Copy/school"
 alias cl="clear"
@@ -32,8 +32,15 @@ function coda() {
 
 }
 
+
+export TERM='xterm-256color'
+
+# colored prompt!
+export PS1="\[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\W\[\033[0m\]$ "
+
+
 ##
-# Your previous /Users/nat/.bash_profile file was backed up as /Users/nat/.bash_profile.macports-saved_2014-09-06_at_23:24:20
+#Your previous /Users/nat/.bash_profile file was backed up as /Users/nat/.bash_profile.macports-saved_2015-09-06_at_23:24:20
 ##
 
 # MacPorts Installer addition on 2014-09-06_at_23:24:20: adding an appropriate PATH variable for use with MacPorts.
@@ -80,7 +87,7 @@ function removeFromPath() {
 
 noded() { /usr/bin/scp -r "$@"  nat@nat:~ ;}
 nodef() { /usr/bin/scp "$@" nat@nat:~ ;}
-
+export EDITOR=/Applications/TextEdit.app/Contents/MacOS/TextEdit
 ##
 # Your previous /Users/nat/.bash_profile file was backed up as /Users/nat/.bash_profile.macports-saved_2014-12-24_at_11:54:17
 ##
