@@ -1,6 +1,10 @@
+##
+# Your previous /Users/nat/.bash_profile file was backed up as /Users/nat/.bash_profile.macports-saved_2014-12-24_at_11:54:17
+##
+
 alias ls="ls -aGhCF"
 alias ll="ls -alhG"
-alias mypi="ssh -p 52837 natilus@72.227.100.207"
+alias mypi="ssh -p 53211 natilus@72.219.201.106"
 alias sites="cd ~/Sites"
 alias cos431="cd /Users/natilus/Copy/school/cos491"
 alias cos226="cd /Users/natilus/Copy/school/cos226"
@@ -25,15 +29,12 @@ alias bak="cd ../"
 alias bak2="cd ../../"
 alias bak3="cd ../../../"
 alias bak4="cd ../../../../"
-alias bako="cd $OLDPWD"
 alias vim="/usr/local/Cellar/vim/7.4.488/bin/vim"
-function coda() { 
+alias brc="vim ~/.bash_profile"
+alias vrc="vim ~/.vimrc"
+alias trc="vim ~/.tmux.conf"
 
-	osascript -e 'tell application \"Coda\" to open file \"$1"\'
-
-}
-
-
+# Colors in ma terminal plz
 export TERM='xterm-256color'
 
 # colored prompt!
@@ -71,6 +72,7 @@ growl() {
   return
 }
 
+# Point jdk to point to version 7/8/whatever is installed
 function setjdk() {
     if [ $# -ne 0 ]; then
         removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
@@ -81,21 +83,23 @@ function setjdk() {
    export PATH=$JAVA_HOME/bin:$PATH
   fi
 }
- 
+
+# reset path to exclude specified jdk version
 function removeFromPath() {
   export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
 }
 
+# Needed for growl/notification forwarding - still don't understand it
 noded() { /usr/bin/scp -r "$@"  nat@nat:~ ;}
 nodef() { /usr/bin/scp "$@" nat@nat:~ ;}
+
+# Default text editor will be TextEdit when opening files
 export EDITOR=/Applications/TextEdit.app/Contents/MacOS/TextEdit
-##
-# Your previous /Users/nat/.bash_profile file was backed up as /Users/nat/.bash_profile.macports-saved_2014-12-24_at_11:54:17
-##
 
 # MacPorts Installer addition on 2014-12-24_at_11:54:17: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
-#export PATH="/Applications/apache-maven-3.3.1/bin:$PATH"
+
+# Something to do with using Maven
 export M2_HOME="/Applications/apache-maven-3.3.1"
 export PATH=$PATH:$M2_HOME/bin
